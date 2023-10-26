@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Braden Seidl - Portfolio</title>
+    <script defer src="/app.js"></script>
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js"
+      integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/animations.min.css"
+      integrity="sha512-GKHaATMc7acW6/GDGVyBhKV3rST+5rMjokVip0uTikmZHhdqFWC7fGBaq6+lf+DOS5BIO8eK6NcyBYUBCHUBXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+      integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css"
+      integrity="sha512-X2hbziex+UPQ+KdI4BWI+39jEDhf2Smc6bfFI/FTIzWnt7mbwZCUU4RWalnMfxtHCpISlexzmd2kvPFJCliiPA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon-base.css"
+      integrity="sha512-w3jHmHLWKlATfXjcSKI6U+/SAz1+QGNsGdSPgFzAccpbtJc/HQTnJNHm/+Je0Zn/tI3ubiAkqIpfL7ETwfJ+mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon-base.min.css"
+      integrity="sha512-9eWhh52PL5mPVR4+ujeBmVbmUzCbAnTstxi3HxQzwkXhI53CEUwf0rkqPaPnDxju5PqdfAAbRZa3u7LSS6b8Ag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"
+      integrity="sha512-LGiXf+jHGTHcIybSsOWO3I/in+OObCkcEsWIZ7IyhzfD6RzD5qDUw2CK+JveuI7zTSEcDG//bIOvOpAJW2BWsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css"
+      integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.extensions.min.js"
+      integrity="sha512-i0+IGP2OBJG5Lioj9FaBr30x7Ci39dWQb8BhSd8J86p48OgctpfXXq0hG6cmCbCkKh4tn335pz9b3seChGFdKw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.js"
+      integrity="sha512-ekWIiATJSaL5RWmBSap8JDgTMCIBCso5UFovYoMix+a4qFcVDryBcCt4P0kJA4kA0YtmnJuzfTcmb9+TIznIlg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
+      integrity="sha512-otONSJGv1l0LjJXcgyqi2MeKXtnthkiXAleeQjFJOKYcVD5u+mOuPb7xCnlsb74Ld+N0ONbP7KYRmW2/OWrvaA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="fullpage">
+      <!-- HOMEPAGE SECTION -->
+
+      <div class="section">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://www.google.com"
+          class="linked-in hidden"
+        >
+          <img class="linked-in-img" src="/images/icons/linkedin-icon.svg" />
+        </a>
+        <div class="navbar hidden" id="nav">
+          <div class="left-link"></div>
+          <div class="right-links">
+            <a href="#project1">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <h1 class="braden hidden">JOHN SMITH</h1>
+
+        <p class="hidden">
+          Comptuer Science graduate with a passion for programming and creation.
+        </p>
+        <a href="#project1" class="button hidden">Projects</a>
+      </div>
+
+      <!-- RAMENGLOW SECTION -->
+      <div
+        class="section"
+        style="
+          display: grid;
+          place-items: center;
+          align-content: center;
+          color: #fafafa;
+          text-align: center;
+        "
+      >
+        <h1
+          class="ramenglow-title slide-from-left-hidden"
+          style="transition-delay: 100ms; margin-top: 0px"
+        >
+          RAMENGLOW
+        </h1>
+        <p class="desc-text slide-from-left-hidden">
+          e-commerce site that sells anime accessories
+        </p>
+        <div
+          class="single-item slide-from-left-hidden"
+          style="margin: auto auto"
+        >
+          <img
+            class="ramenglow-image"
+            style="transition-delay: 200ms"
+            src="/images/RAMENGLOW-homepage.png"
+          />
+
+          <img
+            class="ramenglow-image"
+            style="transition-delay: 200ms"
+            src="/images/RAMENGLOW-collections.png"
+          />
+          <img
+            class="ramenglow-image"
+            style="transition-delay: 200ms"
+            src="/images/RAMENGLOW-product_page.png"
+          />
+        </div>
+        <a
+          class="button slide-from-left-hidden"
+          style="transition-delay: 300ms; margin-top: 60px"
+          href="https://ramenglow.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >View Live Site</a
+        >
+      </div>
+
+      <!-- ABOUT RAMENGLOW-->
+      <div class="about-ramenglow section">
+        <img
+          class="ramenglow-logo slide-from-left-hidden"
+          src="/images/ramenglow-logo.png"
+        />
+        <h1 class="about-h1 slide-from-left-hidden">ABOUT</h1>
+        <h1 class="ramenglow-h1 slide-from-left-hidden">RAMENGLOW</h1>
+        <div class="container slide-from-left-hidden">
+          <h2 style="margin: 0">Description</h2>
+          <div class="date">February 4th, 2023 - Present</div>
+          <p>E-commerce website specializing in anime accessories.</p>
+          <p>
+            I manage all of the social media accounts, advertising accounts,
+            email campaigns, website analytics, etc..
+          </p>
+          <p>
+            Since its creation on February 4th, 2023, RAMENGLOW has achieved
+            over 300 sales.
+          </p>
+
+          <h2 class="built-with">Built With</h2>
+
+          <div class="flex-space-evenly">
+            <div class="slide-from-left-hidden">
+              <img class="icon" src="/images/icons/shopify-icon.svg" />
+              <div>Shopify</div>
+            </div>
+            <div class="slide-from-left-hidden" style="transition-delay: 200ms">
+              <img class="icon" src="/images/icons/html-icon.svg" />
+              <div>HTML</div>
+            </div>
+            <div class="slide-from-left-hidden" style="transition-delay: 400ms">
+              <img class="js-icon" src="/images/icons/javascript-icon.svg" />
+              <div>JavaScript</div>
+            </div>
+            <div class="slide-from-left-hidden" style="transition-delay: 600ms">
+              <img class="icon" src="/images/icons/css-icon.svg" />
+              <div>CSS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOKAI STYLE SECTION -->
+      <div
+        class="section"
+        style="
+          display: grid;
+          place-items: center;
+          align-content: center;
+          color: #fafafa;
+          text-align: center;
+        "
+      >
+        <h1
+          class="ramenglow-title slide-from-left-hidden"
+          style="transition-delay: 100ms; margin-top: 0px"
+        >
+          TOKAI STYLE
+        </h1>
+        <p class="desc-text slide-from-left-hidden">
+          e-commerce site that sells streetwear clothing
+        </p>
+        <div
+          class="single-item slide-from-left-hidden"
+          style="margin: auto auto"
+        >
+          <img
+            class="ramenglow-image"
+            style="transition-delay: 200ms"
+            src="/images/TOKAISTYLE-homepage.png"
+          />
+
+          <img
+            class="ramenglow-image"
+            style="transition-delay: 200ms"
+            src="/images/TOKAISTYLE-collection_page.png"
+          />
+          <img
+            class="ramenglow-image"
+            style="transition-delay: 200ms"
+            src="/images/TOKAISTYLE-product_page.png"
+          />
+        </div>
+        <a
+          class="button slide-from-left-hidden"
+          style="
+            transition-delay: 300ms;
+            margin-top: 60px;
+            border: 1px solid #5d6ced;
+          "
+          href="https://tokaistyle.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >View Live Site</a
+        >
+      </div>
+
+      <!-- ABOUT TOKAI STYLE-->
+      <div class="about-ramenglow section">
+        <img
+          class="ramenglow-logo slide-from-left-hidden"
+          src="/images/icons/tokaistyle-icon.png"
+        />
+        <h1 class="about-h1 slide-from-left-hidden">ABOUT</h1>
+        <h1
+          class="ramenglow-h1 slide-from-left-hidden"
+          style="color: #151938; -webkit-text-stroke-color: #5d6ced"
+        >
+          TOKAI STYLE
+        </h1>
+        <div class="container slide-from-left-hidden">
+          <h2 style="margin: 0">Description</h2>
+          <div class="date">August 26th, 2023 - Present</div>
+          <p>E-commerce website specializing in streetwear clothing.</p>
+          <p>
+            Like RAMENGLOW, I manage all of the social media accounts,
+            advertising accounts, email campaigns, website analytics, etc..
+          </p>
+
+          <h2 class="built-with">Built With</h2>
+
+          <div class="flex-space-evenly">
+            <div class="slide-from-left-hidden">
+              <img class="icon" src="/images/icons/shopify-icon.svg" />
+              <div>Shopify</div>
+            </div>
+            <div class="slide-from-left-hidden" style="transition-delay: 200ms">
+              <img class="icon" src="/images/icons/html-icon.svg" />
+              <div>HTML</div>
+            </div>
+            <div class="slide-from-left-hidden" style="transition-delay: 400ms">
+              <img class="js-icon" src="/images/icons/javascript-icon.svg" />
+              <div>JavaScript</div>
+            </div>
+            <div class="slide-from-left-hidden" style="transition-delay: 600ms">
+              <img class="icon" src="/images/icons/css-icon.svg" />
+              <div>CSS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS SECTION -->
+      <div class="skills section">
+        <h2>SKILLS AND</h2>
+        <h1 class="slide-from-left-hidden">QUALIFICATIONS</h1>
+        <div class="icons-container">
+          <div class="slide-from-left-hidden" style="transition-delay: 100ms">
+            <img src="/images/icons/c-icon.svg" />
+            <div class="subtitle">C</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 200ms">
+            <img
+              class="slide-from-left-hidden"
+              src="/images/icons/c++-icon.svg"
+            />
+            <div class="subtitle">
+              C<span style="font-family: 'Times New Roman', Times, serif"
+                >++</span
+              >
+            </div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 300ms">
+            <img class="slide-from-left-hidden" src="/images/icons/c--4.svg" />
+            <div class="subtitle">
+              C<span style="font-family: 'Times New Roman', Times, serif"
+                >#</span
+              >
+            </div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 400ms">
+            <img src="/images/icons/java-icon.svg" />
+            <div class="subtitle">Java</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 500ms">
+            <img src="/images/icons/python-icon.svg" />
+            <div class="subtitle">Python</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 600ms">
+            <img src="/images/icons/javascript-icon.svg" />
+            <div class="subtitle">JavaScript</div>
+          </div>
+
+          <div class="slide-from-left-hidden" style="transition-delay: 700ms">
+            <img src="/images/icons/html-icon.svg" />
+            <div class="subtitle">HTML</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 800ms">
+            <img src="/images/icons/css-icon.svg" />
+            <div class="subtitle">CSS</div>
+          </div>
+
+          <div class="slide-from-left-hidden" style="transition-delay: 900ms">
+            <img src="/images/icons/reactjs-icon.svg" />
+            <div class="subtitle">React</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 1000ms">
+            <img src="/images/icons/selenium-icon.svg" />
+            <div class="subtitle">Selenium</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 1100ms">
+            <img src="/images/icons/git-icon.svg" />
+            <div class="subtitle">Git</div>
+          </div>
+
+          <div class="slide-from-left-hidden" style="transition-delay: 1200ms">
+            <img
+              style="
+                filter: invert(100%) sepia(20%) saturate(2%) hue-rotate(334deg)
+                  brightness(109%) contrast(101%);
+              "
+              src="/images/icons/flask-icon.svg"
+            />
+            <div class="subtitle">Flask</div>
+          </div>
+
+          <div class="slide-from-left-hidden" style="transition-delay: 1300ms">
+            <img src="/images/icons/shopify-icon.svg" />
+            <div class="subtitle">Shopify</div>
+          </div>
+
+          <div class="slide-from-left-hidden" style="transition-delay: 1400ms">
+            <img src="/images/icons/mysql-icon.svg" />
+            <div class="subtitle">MySQL</div>
+          </div>
+          <div class="slide-from-left-hidden" style="transition-delay: 1500ms">
+            <img src="/images/icons/sqlite-icon.svg" />
+            <div class="subtitle">SQLite</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <div class="education-container slide-from-left-hidden">
+          <div style="display: flex" class="slide-from-left-hidden">
+            <i class="icon bx bxs-graduation slide-from-left-hidden"></i>
+            <h1 class="title slide-from-left-hidden">EDUCATION</h1>
+          </div>
+          <p class="slide-from-left-hidden">
+            Bachelor of Science - Computer Science and Mathematics <br />
+            <span style="font-size: 12px; font-weight: bold"
+              >Florida State University - 2022</span
+            >
+          </p>
+          <p class="slide-from-left-hidden">
+            Robinson International Baccalaureate Program <br />
+            <span style="font-size: 12px; font-weight: bold"
+              >Thomas R. Robinson High School - 2018</span
+            >
+          </p>
+
+          <h2
+            class="slide-from-left-hidden"
+            style="
+              margin: 0;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              border-top: 1px solid white;
+              width: 100%;
+            "
+          >
+            Relevant Coursework
+          </h2>
+          <div class="slide-from-left-hidden">
+            <div style="padding: 5px">Software Engineering</div>
+            <div style="padding: 5px">Data Structures</div>
+            <div style="padding: 5px">Unix Tools</div>
+            <div style="padding: 5px">Operating Systems</div>
+            <div style="padding: 5px">Computer Security Fundamentals</div>
+            <div style="padding: 5px">Network System Admin</div>
+            <div style="padding: 5px">OOP</div>
+          </div>
+        </div>
+      </div>
+      <div class="contact section">
+        <h1 class="slide-from-left-hidden">CONTACT</h1>
+
+        <form
+          class="slide-from-left-hidden"
+          name="gform"
+          id="gform"
+          enctype="text/plain"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSeHJTYqRD_OHnSHQQTN2IJQdBUFEgan6yKTOsf60gPNeWX7UA/formResponse?"
+          target="hidden_iframe"
+          onsubmit="submitted=true;"
+          onkeydown="return event.key != 'Enter';"
+        >
+          <div class="flex-space-evenly" style="gap: 10px; margin-top: 10px">
+            <input
+              placeholder="Name"
+              type="text"
+              name="entry.235513602"
+              id="entry.235513602"
+            /><br />
+            <input
+              placeholder="Email"
+              type="text"
+              name="entry.1120286686"
+              id="entry.1120286686"
+            />
+          </div>
+
+          <textarea
+            placeholder="Message"
+            type="text"
+            name="entry.1889819510"
+            id="entry.1889819510"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Submit"
+            style="cursor: pointer; width: 345px"
+          />
+        </form>
+
+        <iframe
+          name="hidden_iframe"
+          id="hidden_iframe"
+          style="display: none"
+          onload="if(submitted) {}"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    var submitted = false;
+  </script>
+  <script type="text/javascript">
+    $("#gform").on("submit", function (e) {
+      $("#gform *").fadeOut(2000);
+      $("#gform").prepend("Your submission has been received...");
+    });
+  </script>
+
+  <!-- SLICK SCRIPT -->
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $(".single-item").slick({
+        draggable: true,
+        arrows: true,
+        dots: true,
+        speed: 900,
+        infinite: true,
+        cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",
+        touchThreshold: 100,
+        autoplay: true,
+        autoplaySpeed: 4500,
+      });
+    });
+  </script>
+  <script>
+    new fullpage("#fullpage", {
+      sectionsColor: [
+        "#131316",
+        "#131316",
+        "#131316",
+        "#131316",
+        "#131316",
+        "#131316",
+        "#131316",
+        "#131316",
+      ],
+      scrollOverflow: false,
+      anchors: [
+        "home",
+        "project1",
+        "about-ramenglow",
+        "project2",
+        "about-tokaistyle",
+        "skills",
+        "education",
+        "contact",
+      ],
+
+      // Get your license at https://alvarotrigo.com/fullPage/pricing/
+      licenseKey: "YOUR LICENSE KEY HERE ",
+    });
+  </script>
+</html>
