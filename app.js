@@ -1,3 +1,5 @@
+alert("Hello! I am an alert box!!");
+
 const firstpageanimation = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
