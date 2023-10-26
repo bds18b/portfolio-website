@@ -1,17 +1,17 @@
 /* #region FONTS */
 @font-face {
   font-family: Aeonik;
-  src: url(../Portfolio-Website/fonts/AeonikTRIAL-Regular.otf);
+  src: url(../../Portfolio-Website/fonts/AeonikTRIAL-Regular.otf);
 }
 @font-face {
   font-family: Aeonik;
   font-weight: bold;
-  src: url(../Portfolio-Website/fonts/AeonikTRIAL-Bold.otf);
+  src: url(../../Portfolio-Website/fonts/AeonikTRIAL-Bold.otf);
 }
 @font-face {
   font-family: Aeonik;
   font-weight: light;
-  src: url(../Portfolio-Website/fonts/AeonikTRIAL-Light.otf);
+  src: url(../../Portfolio-Website/fonts/AeonikTRIAL-Light.otf);
 }
 
 /* #endregion */
