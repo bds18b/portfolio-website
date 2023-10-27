@@ -45,8 +45,6 @@ h1:hover {
 /* #endregion */
 
 /* #region BUTTONS */
-
-
 .button {
   all: unset;
   padding: 10px;
@@ -221,7 +219,7 @@ h1:hover {
   }
 
   .icons-container img {
-    width: 75%;
+    width: 60%;
   }
 }
 
@@ -438,7 +436,7 @@ select:focus {
 }
 
 @media only screen and (max-width: 768px) {
-  .contact .h1 {
+  .contact h1 {
     font-size: 75px;
   }
 }
