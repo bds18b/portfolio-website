@@ -1,25 +1,30 @@
 /* #region FONTS */
 @font-face {
   font-family: Aeonik;
-  src: url(../../Portfolio-Website/fonts/AeonikTRIAL-Regular.otf);
+  src: url(/fonts/AeonikTRIAL-Regular.otf);
 }
 @font-face {
   font-family: Aeonik;
   font-weight: bold;
-  src: url(../../Portfolio-Website/fonts/AeonikTRIAL-Bold.otf);
+  src: url(/fonts/AeonikTRIAL-Bold.otf);
 }
 @font-face {
-  font-family: Aeonik;
+  font-family: AeonikLight;
   font-weight: light;
-  src: url(../../Portfolio-Website/fonts/AeonikTRIAL-Light.otf);
+  src: url(/fonts/AeonikTRIAL-Light.otf);
 }
 
 /* #endregion */
 
 /* #region GLOBAL */
+:root {
+  --c-bg: #1a1a1d;
+  --c-lbg: #29292e;
+}
+
 * {
   scroll-behavior: smooth;
-  font-family: "Aeonik", sans-serif;
+  font-family: "AeonikLight", sans-serif;
 }
 h1 {
   font-size: 100px;
@@ -28,9 +33,13 @@ h1 {
   color: transparent;
   -webkit-text-stroke-color: white;
   transition: 1s all;
+  font-family: Aeonik, sans-serif;
 }
 h1:hover {
   color: white;
+}
+h2 {
+  font-family: "Aeonik";
 }
 ::selection {
   background: #4194ff;
@@ -65,12 +74,23 @@ h1:hover {
 /* #endregion */
 
 /* #region FULLPAGEJS SECTIONS */
+body {
+  background: radial-gradient(
+    at 50% 0%,
+    var(--c-lbg),
+    var(--c-bg) 70%
+  ) !important;
+}
 .section {
   display: grid;
   place-items: center;
   align-content: center;
   color: #fafafa;
   text-align: center;
+  background-size: repeat;
+
+  /* background-color: transparent !important;
+  background-image: url(images/noise.png); */
 }
 .fp-watermark {
   display: none;
@@ -128,7 +148,8 @@ h1:hover {
 
 /* #region HOMEPAGE */
 .braden {
-  font-size: 100px;
+  font-family: Aeonik;
+  font-size: 85px;
   margin-bottom: 10px;
   -webkit-text-stroke-width: 1px;
   color: transparent;
@@ -137,6 +158,12 @@ h1:hover {
 }
 .braden:hover {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #about-me {
+    max-width: 400px;
+  }
 }
 
 /* #endregion */
@@ -280,8 +307,13 @@ h1:hover {
 }
 
 .about-h1 {
+  margin-top: 10px;
   color: white;
-  font-size: 75px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: light;
+  letter-spacing: 10px;
+  font-family: "AeonikLight", sans-serif;
 }
 
 .ramenglow-h1 {
@@ -328,8 +360,8 @@ h1:hover {
     width: 20%;
   }
   .about-h1 {
-    font-size: 40px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
   }
   .ramenglow-h1 {
     font-size: 50px;
