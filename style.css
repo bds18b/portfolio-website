@@ -425,12 +425,13 @@ body {
 /* #region CONTACT */
 .contact h1 {
   color: white;
+  font-size: 50px;
 }
 
 input {
   background-color: transparent;
   color: white;
-  border-radius: 20px;
+  border-radius: 7px;
   padding: 15px;
   outline: none;
   border: 1px solid white;
@@ -442,7 +443,7 @@ textarea {
   margin: auto;
   background-color: transparent;
   color: white;
-  border-radius: 20px;
+  border-radius: 7px;
   padding: 15px;
   outline: none;
   border: 1px solid white;
@@ -469,7 +470,11 @@ select:focus {
 
 @media only screen and (max-width: 768px) {
   .contact h1 {
-    font-size: 75px;
+    font-size: 50px;
+  }
+
+  .contact p {
+    max-width: 400px;
   }
 }
 /* #endregion */
