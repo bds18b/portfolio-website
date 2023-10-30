@@ -9,5 +9,5 @@ Built with:
 - Libraries/APIs:
   - fullPage
   - Intersection Observer
-  - Slick Slider
+  - Slick
 
