@@ -1,4 +1,14 @@
 window.addEventListener("DOMContentLoaded", () => {
+  const nav = document.getElementById("nav");
+  const socials = document.getElementById("socials");
+  let x = nav.offsetHeight;
+  socials.style.height = `${x}` + "px";
+  window.onresize = () => {
+    x = nav.offsetHeight;
+
+    socials.style.height = `${x}` + "px";
+  };
+
   const home = document.getElementById("nav-home");
   const projects = document.getElementById("nav-projects");
   const skills = document.getElementById("nav-skills");

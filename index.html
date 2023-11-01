@@ -101,6 +101,7 @@
     />
   </head>
   <body>
+    <!--Mobile NAV-->
     <div id="floating">
       <a href="#ramenglow"><h5>Projects</h5></a>
       <a href="#skills"><h5>Skills</h5></a>
@@ -108,7 +109,46 @@
       <a href="#contact"><h5>Contact</h5></a>
     </div>
 
+    <!--Desktop NAV-->
     <div class="navbar hidden" id="nav">
+      <div
+        id="socials"
+        style="
+          position: absolute;
+          display: flex;
+          z-index: 1000;
+          top: 0;
+          left: 10px;
+          justify-content: center;
+          z-index: 100;
+        "
+      >
+        <a
+          href="https://www.linkedin.com/in/braden-seidl-516b97242/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+          "
+          ><img style="width: 40%" src="/images/icons/linkedin-icon.svg"
+        /></a>
+        <a
+          href="https://github.com/bds18b"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+          "
+          ><img style="width: 40%" src="/images/icons/github-icon.svg"
+        /></a>
+      </div>
+
       <div id="nav-links" class="right-links">
         <a id="nav-home" class="link" href="#home">Home</a>
         <a id="nav-projects" class="link" href="#ramenglow">Projects</a>
@@ -117,6 +157,7 @@
         <a id="nav-contact" class="link" href="#contact">Contact</a>
       </div>
     </div>
+
     <div id="fullpage">
       <!-- HOMEPAGE SECTION -->
       <div class="section">
