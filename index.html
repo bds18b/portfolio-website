@@ -9,6 +9,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Braden Seidl - Portfolio</title>
+    <script src="/nav.js"></script>
     <script defer src="/app.js"></script>
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <script
@@ -101,19 +102,19 @@
   </head>
   <body>
     <div id="floating">
-      <a href="#project1"><h5>Projects</h5></a>
+      <a href="#ramenglow"><h5>Projects</h5></a>
       <a href="#skills"><h5>Skills</h5></a>
       <a href="#education"><h5>Education</h5></a>
       <a href="#contact"><h5>Contact</h5></a>
     </div>
 
     <div class="navbar hidden" id="nav">
-      <div class="right-links">
-        <a class="link" href="#home">Home</a>
-        <a class="link" href="#project1">Projects</a>
-        <a class="link" href="#skills">Skills</a>
-        <a class="link" href="#education">Education</a>
-        <a class="link" href="#contact">Contact</a>
+      <div id="nav-links" class="right-links">
+        <a id="nav-home" class="link" href="#home">Home</a>
+        <a id="nav-projects" class="link" href="#ramenglow">Projects</a>
+        <a id="nav-skills" class="link" href="#skills">Skills</a>
+        <a id="nav-education" class="link" href="#education">Education</a>
+        <a id="nav-contact" class="link" href="#contact">Contact</a>
       </div>
     </div>
     <div id="fullpage">
@@ -124,7 +125,7 @@
         <p id="about-me" class="hidden">
           Comptuer Science graduate with a passion for programming and creation.
         </p>
-        <a href="#project1" class="button hidden">Projects</a>
+        <a href="#ramenglow" class="button hidden">Projects</a>
       </div>
 
       <!-- RAMENGLOW SECTION -->
@@ -402,6 +403,11 @@
             <div class="subtitle">Shopify</div>
           </div>
 
+          <div class="slide-from-left-hidden" style="transition-delay: 1300ms">
+            <img src="/images/icons/wordpress-icon.svg" />
+            <div class="subtitle">WordPress</div>
+          </div>
+
           <div class="slide-from-left-hidden" style="transition-delay: 1400ms">
             <img src="/images/icons/mysql-icon.svg" />
             <div class="subtitle">MySQL</div>
@@ -557,9 +563,9 @@
       scrollOverflow: false,
       anchors: [
         "home",
-        "project1",
+        "ramenglow",
         "about-ramenglow",
-        "project2",
+        "tokaistyle",
         "about-tokaistyle",
         "skills",
         "education",

@@ -94,6 +94,12 @@
   border-bottom: 1px solid rgb(59, 64, 70);
 }
 
+.selected {
+  text-decoration: underline !important;
+  text-underline-offset: 14px;
+  text-decoration-thickness: 1px !important;
+}
+
 .right-links {
   padding: 1vh;
   border-radius: 1rem;
@@ -327,9 +333,9 @@ body {
     font-size: 45px;
   }
   .icons-container {
-    grid-template-columns: 75px 75px 75px;
-    column-gap: 45px;
-    row-gap: 50px;
+    grid-template-columns: 75px 75px 75px 75px;
+    column-gap: 20px;
+    row-gap: 20px;
   }
 
   .icons-container img {
@@ -558,6 +564,10 @@ select:focus {
 @media only screen and (max-width: 768px) {
   .contact h1 {
     font-size: 50px;
+  }
+
+  textarea {
+    height: 200px;
   }
 
   .contact p {
